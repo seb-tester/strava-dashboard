@@ -673,24 +673,15 @@ function makeCumulChart(canvasId, cumData) {{
 function makeTableHtml(t) {{
   const annees = t.annees;
   let html = "<table><thead><tr><th>Mois</th>";
-  annees.forEach((a, i) => {{
+  annees.forEach((a) => {{
     html += `<th>${{a}}</th>`;
-    if (i > 0) html += `<th style="font-size:.78rem;background:#c43a00">vs ${{annees[i-1]}}</th>`;
   }});
   html += "</tr></thead><tbody>";
   t.rows.forEach(row => {{
     html += `<tr><td style="font-weight:500">${{row.mois}}</td>`;
-    annees.forEach((a, i) => {{
+    annees.forEach((a) => {{
       const d = row[a]||{{km:0,count:0}};
       html += `<td><b>${{d.km}} km</b><br><span class="cnt">${{d.count}} act.</span></td>`;
-      if (i > 0) {{
-        const cur = d.km, prev = (row[annees[i-1]]||{{km:0}}).km;
-        const diff = cur - prev;
-        const pct  = prev > 0 ? Math.round(diff/prev*100) : null;
-        html += pct === null
-          ? `<td class="cnt">—</td>`
-          : `<td class="${{diff>=0?'up':'down'}}" style="font-size:.82rem">${{diff>=0?'▲':'▼'}} ${{Math.abs(pct)}}%</td>`;
-      }}
     }});
     html += "</tr>";
   }});
