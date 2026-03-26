@@ -141,6 +141,26 @@ def fetch_activity_by_id(token, activity_id):
     log(f"❌ Erreur fetch activité {activity_id}: {resp.status_code}")
     return None
 
+def delete_from_csv(activity_id):
+    """Supprime une activité du CSV par son ID."""
+    if not os.path.exists(CSV_FILE):
+        return
+    activity_id = str(activity_id).strip('"')
+    with open(CSV_FILE, encoding="utf-8-sig") as f:
+        rows = list(csv.DictReader(f))
+    fieldnames = rows[0].keys() if rows else []
+    original_count = len(rows)
+    rows = [r for r in rows if r.get("id", "").strip('"') != activity_id]
+    if len(rows) < original_count:
+        with open(CSV_FILE, "w", newline="", encoding="utf-8-sig") as f:
+            writer = csv.DictWriter(f, fieldnames=fieldnames, quoting=csv.QUOTE_ALL)
+            writer.writeheader()
+            writer.writerows(rows)
+        log(f"🗑️  Activité {activity_id} supprimée du CSV.")
+        return True
+    log(f"⚠️  Activité {activity_id} introuvable dans le CSV.")
+    return False
+
 def activity_to_row(a):
     sport = a.get("type", "Autre")
     return {
@@ -384,22 +404,36 @@ if __name__ == "__main__":
     token = get_access_token()
     existing_ids = load_existing_ids()
 
+    # ── Mode suppression par ID (déclenché par webhook delete) ──
+    if "--delete-activity-id" in sys.argv:
+        idx = sys.argv.index("--delete-activity-id")
+        activity_id = sys.argv[idx + 1]
+        log(f"🗑️  Suppression activité ID: {activity_id}")
+        deleted = delete_from_csv(activity_id)
+        if deleted:
+            regenerate_dashboard()
+        save_last_sync_timestamp()
+        log("✅ Sync terminée.")
+        sys.exit(0)
+
     # ── Mode fetch par ID (déclenché par webhook) ──────
     if "--activity-id" in sys.argv:
         idx = sys.argv.index("--activity-id")
         activity_id = sys.argv[idx + 1]
         log(f"🎯 Fetch direct activité ID: {activity_id}")
         act = fetch_activity_by_id(token, activity_id)
+        email_sent = False
         if act:
             if str(act["id"]) not in existing_ids:
                 append_to_csv([act])
                 regenerate_graphs()
                 regenerate_dashboard()
                 send_email([act])
+                email_sent = True
                 log(f"✅ Activité ajoutée: {act['name']}")
             else:
                 log(f"⚠️  Activité {activity_id} déjà dans le CSV.")
-        save_last_sync_timestamp()
+        save_last_sync_timestamp(email_sent_today=email_sent)
         log("✅ Sync terminée.")
         sys.exit(0)
 
