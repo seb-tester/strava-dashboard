@@ -241,9 +241,10 @@ def regenerate_graphs():
 def regenerate_dashboard():
     try:
         import subprocess
+        import sys
         dashboard_script = os.path.join(SCRIPT_DIR, "strava_dashboard.py")
         if os.path.exists(dashboard_script):
-            subprocess.run(["python3", dashboard_script], check=True, capture_output=True)
+            subprocess.run([sys.executable, dashboard_script], check=True, capture_output=True)
             log("🌐 Dashboard HTML mis à jour.")
         else:
             log("⚠️  strava_dashboard.py introuvable.")
