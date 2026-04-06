@@ -3,6 +3,7 @@ import subprocess
 import asyncio
 import hmac
 import hashlib
+from notifier import notify
 
 app = FastAPI()
 
@@ -41,6 +42,15 @@ async def receive_webhook(request: Request):
                 "--activity-id", object_id
             ])
         asyncio.create_task(delayed_sync())
+    elif object_type == "activity" and aspect_type == "delete" and object_id:
+        async def delayed_delete():
+            await asyncio.sleep(5)
+            subprocess.Popen([
+                "/home/pi/strava/venv/bin/python3",
+                "/home/pi/strava/strava_sync.py",
+                "--delete-activity-id", object_id
+            ])
+        asyncio.create_task(delayed_delete())
     return {"status": "ok"}
 
 @app.post("/deploy")
@@ -52,6 +62,7 @@ async def deploy(request: Request):
     async def do_deploy():
         subprocess.run(["git", "-C", "/home/pi/strava", "pull", "origin", "main"])
         subprocess.run(["/home/pi/strava/venv/bin/python3", "/home/pi/strava/strava_dashboard.py"])
+        notify("🚀 Déploiement strava-dashboard", "git pull + redémarrage en cours…", tags=["rocket"])
         subprocess.run(["sudo", "systemctl", "restart", "strava-webhook"])
     asyncio.create_task(do_deploy())
     print("🚀 Déploiement déclenché par GitHub")

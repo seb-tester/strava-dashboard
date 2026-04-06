@@ -1,0 +1,857 @@
+[2026-03-16 20:52:10] ══════════════════════════════════════════════════
+[2026-03-16 20:52:10] 🚀 Démarrage sync Strava
+[2026-03-16 20:52:11] 🆕 2 nouvelle(s) activité(s) trouvée(s) !
+[2026-03-16 20:52:16] ⚠️  Erreur graphiques : Error tokenizing data. C error: Expected 9 fields in line 192, saw 10
+
+[2026-03-16 20:52:17] ❌ Erreur envoi email : (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-8cda212cac1sm1497244285a.33 - gsmtp')
+[2026-03-16 20:52:17] ✅ Sync terminée.
+[2026-03-16 20:52:10] ══════════════════════════════════════════════════
+[2026-03-16 20:52:10] 🚀 Démarrage sync Strava
+[2026-03-16 20:52:11] 🆕 2 nouvelle(s) activité(s) trouvée(s) !
+[2026-03-16 20:52:16] ⚠️  Erreur graphiques : Error tokenizing data. C error: Expected 9 fields in line 192, saw 10
+
+[2026-03-16 20:52:17] ❌ Erreur envoi email : (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-8cda212cac1sm1497244285a.33 - gsmtp')
+[2026-03-16 20:52:17] ✅ Sync terminée.
+[2026-03-16 20:54:00] ══════════════════════════════════════════════════
+[2026-03-16 20:54:00] 🚀 Démarrage sync Strava
+[2026-03-16 20:54:00] 🆕 2 nouvelle(s) activité(s) trouvée(s) !
+[2026-03-16 20:54:01] ⚠️  Erreur graphiques : Error tokenizing data. C error: Expected 9 fields in line 192, saw 10
+
+[2026-03-16 20:54:02] ❌ Erreur envoi email : (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-89a65cfcd3asm153367626d6.38 - gsmtp')
+[2026-03-16 20:54:02] ✅ Sync terminée.
+[2026-03-16 20:55:10] ══════════════════════════════════════════════════
+[2026-03-16 20:55:10] 🚀 Démarrage sync Strava
+[2026-03-16 20:55:10] 🆕 2 nouvelle(s) activité(s) trouvée(s) !
+[2026-03-16 20:55:11] ⚠️  Erreur graphiques : Error tokenizing data. C error: Expected 9 fields in line 192, saw 10
+
+[2026-03-16 20:55:12] ❌ Erreur envoi email : (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-8cda1fbcd23sm1530953185a.1 - gsmtp')
+[2026-03-16 20:55:12] ✅ Sync terminée.
+[2026-03-16 20:57:11] ══════════════════════════════════════════════════
+[2026-03-16 20:57:11] 🚀 Démarrage sync Strava
+[2026-03-16 20:57:11] 🆕 2 nouvelle(s) activité(s) trouvée(s) !
+[2026-03-16 20:57:12] 📈 Graphiques mis à jour.
+[2026-03-16 20:57:14] 📧 Email envoyé à gravel.sebastien@gmail.com
+[2026-03-16 20:57:14] ✅ Sync terminée.
+[2026-03-16 20:58:09] ══════════════════════════════════════════════════
+[2026-03-16 20:58:09] 🚀 Démarrage sync Strava
+[2026-03-16 20:58:09] 🆕 2 nouvelle(s) activité(s) trouvée(s) !
+[2026-03-16 20:58:10] 📈 Graphiques mis à jour.
+[2026-03-16 20:58:11] 📧 Email envoyé à gravel.sebastien@gmail.com
+[2026-03-16 20:58:11] ✅ Sync terminée.
+[2026-03-16 20:59:22] ══════════════════════════════════════════════════
+[2026-03-16 20:59:22] 🚀 Démarrage sync Strava
+[2026-03-16 20:59:22] 🆕 2 nouvelle(s) activité(s) trouvée(s) !
+[2026-03-16 20:59:25] 📈 Graphiques mis à jour.
+[2026-03-16 20:59:26] 📧 Email envoyé à gravel.sebastien@gmail.com
+[2026-03-16 20:59:26] ✅ Sync terminée.
+[2026-03-16 20:59:22] ══════════════════════════════════════════════════
+[2026-03-16 20:59:22] 🚀 Démarrage sync Strava
+[2026-03-16 20:59:22] 🆕 2 nouvelle(s) activité(s) trouvée(s) !
+[2026-03-16 20:59:25] 📈 Graphiques mis à jour.
+[2026-03-16 20:59:26] 📧 Email envoyé à gravel.sebastien@gmail.com
+[2026-03-16 20:59:26] ✅ Sync terminée.
+[2026-03-17 02:15:36] ══════════════════════════════════════════════════
+[2026-03-17 02:15:36] 🚀 Démarrage sync Strava
+[2026-03-17 02:15:36] 🆕 2 nouvelle(s) activité(s) trouvée(s) !
+[2026-03-17 02:15:39] 📈 Graphiques mis à jour.
+[2026-03-17 02:15:39] ⚠️  Erreur dashboard : Command '['python3', '/Users/sebastiengravel/OneDrive/Claude/strava_dashboard.py']' returned non-zero exit status 1.
+[2026-03-17 02:15:41] 📧 Email envoyé à gravel.sebastien@gmail.com
+[2026-03-17 02:15:41] ✅ Sync terminée.
+[2026-03-17 02:15:36] ══════════════════════════════════════════════════
+[2026-03-17 02:15:36] 🚀 Démarrage sync Strava
+[2026-03-17 02:15:36] 🆕 2 nouvelle(s) activité(s) trouvée(s) !
+[2026-03-17 02:15:39] 📈 Graphiques mis à jour.
+[2026-03-17 02:15:39] ⚠️  Erreur dashboard : Command '['python3', '/Users/sebastiengravel/OneDrive/Claude/strava_dashboard.py']' returned non-zero exit status 1.
+[2026-03-17 02:15:41] 📧 Email envoyé à gravel.sebastien@gmail.com
+[2026-03-17 02:15:41] ✅ Sync terminée.
+[2026-03-17 09:30:00] ══════════════════════════════════════════════════
+[2026-03-17 09:30:00] 🚀 Démarrage sync Strava
+[2026-03-17 09:30:00] 🔄 Rafraîchissement du token...
+[2026-03-17 09:30:00] 🆕 2 nouvelle(s) activité(s) trouvée(s) !
+[2026-03-17 09:30:03] 📈 Graphiques mis à jour.
+[2026-03-17 09:30:03] ⚠️  Erreur dashboard : Command '['python3', '/Users/sebastiengravel/OneDrive/Claude/strava_dashboard.py']' returned non-zero exit status 1.
+[2026-03-17 09:46:22] ❌ Erreur envoi email : Connection unexpectedly closed
+[2026-03-17 09:46:22] ✅ Sync terminée.
+[2026-03-17 09:30:00] ══════════════════════════════════════════════════
+[2026-03-17 09:30:00] 🚀 Démarrage sync Strava
+[2026-03-17 09:30:00] 🔄 Rafraîchissement du token...
+[2026-03-17 09:30:00] 🆕 2 nouvelle(s) activité(s) trouvée(s) !
+[2026-03-17 09:30:03] 📈 Graphiques mis à jour.
+[2026-03-17 09:30:03] ⚠️  Erreur dashboard : Command '['python3', '/Users/sebastiengravel/OneDrive/Claude/strava_dashboard.py']' returned non-zero exit status 1.
+[2026-03-17 09:46:22] ❌ Erreur envoi email : Connection unexpectedly closed
+[2026-03-17 09:46:22] ✅ Sync terminée.
+[2026-03-17 17:42:37] ══════════════════════════════════════════════════
+[2026-03-17 17:42:37] 🚀 Démarrage sync Strava
+[2026-03-17 17:42:37] 🔄 Rafraîchissement du token...
+[2026-03-17 17:42:38] 🆕 2 nouvelle(s) activité(s) trouvée(s) !
+[2026-03-17 17:42:42] 📈 Graphiques mis à jour.
+[2026-03-17 17:42:43] ⚠️  Erreur dashboard : Command '['python3', '/Users/sebastiengravel/OneDrive/Claude/strava_dashboard.py']' returned non-zero exit status 1.
+[2026-03-17 17:42:54] 📧 Email envoyé à gravel.sebastien@gmail.com
+[2026-03-17 17:42:54] ✅ Sync terminée.
+[2026-03-17 17:42:37] ══════════════════════════════════════════════════
+[2026-03-17 17:42:37] 🚀 Démarrage sync Strava
+[2026-03-17 17:42:37] 🔄 Rafraîchissement du token...
+[2026-03-17 17:42:38] 🆕 2 nouvelle(s) activité(s) trouvée(s) !
+[2026-03-17 17:42:42] 📈 Graphiques mis à jour.
+[2026-03-17 17:42:43] ⚠️  Erreur dashboard : Command '['python3', '/Users/sebastiengravel/OneDrive/Claude/strava_dashboard.py']' returned non-zero exit status 1.
+[2026-03-17 17:42:54] 📧 Email envoyé à gravel.sebastien@gmail.com
+[2026-03-17 17:42:54] ✅ Sync terminée.
+[2026-03-17 17:53:48] ══════════════════════════════════════════════════
+[2026-03-17 17:53:48] 🚀 Démarrage sync Strava
+[2026-03-17 17:53:48] 🆕 2 nouvelle(s) activité(s) trouvée(s) !
+[2026-03-17 17:53:50] 📈 Graphiques mis à jour.
+[2026-03-17 17:53:51] 🌐 Dashboard HTML mis à jour.
+[2026-03-17 17:54:02] 📧 Email envoyé à gravel.sebastien@gmail.com
+[2026-03-17 17:54:02] ✅ Sync terminée.
+[2026-03-17 18:06:28] ══════════════════════════════════════════════════
+[2026-03-17 18:06:28] 🚀 Démarrage sync Strava
+[2026-03-17 18:06:28] 🕐 Recherche des activités depuis : 10/03/2026 16:06
+[2026-03-17 18:06:28] 🆕 2 nouvelle(s) activité(s) trouvée(s) !
+[2026-03-17 18:06:31] 📈 Graphiques mis à jour.
+[2026-03-17 18:06:31] 🌐 Dashboard HTML mis à jour.
+[2026-03-17 18:06:33] 📧 Email envoyé à gravel.sebastien@gmail.com
+[2026-03-17 18:06:33] ✅ Sync terminée.
+[2026-03-17 18:10:10] ══════════════════════════════════════════════════
+[2026-03-17 18:10:10] 🚀 Démarrage sync Strava
+[2026-03-17 18:10:10] 🕐 Recherche des activités depuis : 17/03/2026 16:06
+[2026-03-17 18:10:10] ✅ Aucune nouvelle activité.
+[2026-03-17 18:10:10] ✅ Sync terminée.
+[2026-03-17 18:42:55] ══════════════════════════════════════════════════
+[2026-03-17 18:42:55] 🚀 Démarrage sync Strava
+[2026-03-17 18:42:55] 🕐 Recherche des activités depuis : 17/03/2026 16:10
+[2026-03-17 18:42:55] ✅ Aucune nouvelle activité.
+[2026-03-17 18:42:55] ✅ Sync terminée.
+[2026-03-17 18:42:55] ══════════════════════════════════════════════════
+[2026-03-17 18:42:55] 🚀 Démarrage sync Strava
+[2026-03-17 18:42:55] 🕐 Recherche des activités depuis : 17/03/2026 16:10
+[2026-03-17 18:42:55] ✅ Aucune nouvelle activité.
+[2026-03-17 18:42:55] ✅ Sync terminée.
+[2026-03-17 20:02:25] ══════════════════════════════════════════════════
+[2026-03-17 20:02:25] 🚀 Démarrage sync Strava
+[2026-03-17 20:02:25] 🕐 Recherche des activités depuis : 17/03/2026 16:42
+[2026-03-17 20:02:25] ✅ Aucune nouvelle activité.
+[2026-03-17 20:02:25] ✅ Sync terminée.
+[2026-03-17 20:02:25] ══════════════════════════════════════════════════
+[2026-03-17 20:02:25] 🚀 Démarrage sync Strava
+[2026-03-17 20:02:25] 🕐 Recherche des activités depuis : 17/03/2026 16:42
+[2026-03-17 20:02:25] ✅ Aucune nouvelle activité.
+[2026-03-17 20:02:25] ✅ Sync terminée.
+[2026-03-17 20:04:10] ══════════════════════════════════════════════════
+[2026-03-17 20:04:10] 🚀 Démarrage sync Strava
+[2026-03-17 20:04:10] 🕐 Recherche des activités depuis : 17/03/2026 18:02
+[2026-03-17 20:04:10] ✅ Aucune nouvelle activité.
+[2026-03-17 20:04:10] ✅ Sync terminée.
+[2026-03-17 20:55:40] ══════════════════════════════════════════════════
+[2026-03-17 20:55:40] 🔄 SYNC COMPLÈTE depuis 2018
+[2026-03-17 20:55:40] 🕐 Récupération depuis le 01/01/2018...
+[2026-03-17 20:55:49] 🆕 810 nouvelle(s) activité(s) trouvée(s) !
+[2026-03-17 20:55:52] 📈 Graphiques mis à jour.
+[2026-03-17 20:55:53] 🌐 Dashboard HTML mis à jour.
+[2026-03-17 20:56:05] 📧 Email envoyé à gravel.sebastien@gmail.com
+[2026-03-17 20:56:05] ✅ Sync terminée.
+[2026-03-17 21:02:26] ══════════════════════════════════════════════════
+[2026-03-17 21:02:26] 🚀 Démarrage sync Strava
+[2026-03-17 21:02:26] 🕐 Recherche des activités depuis : 17/03/2026 18:56
+[2026-03-17 21:02:26] ✅ Aucune nouvelle activité.
+[2026-03-17 21:02:26] ✅ Sync terminée.
+[2026-03-17 21:02:26] ══════════════════════════════════════════════════
+[2026-03-17 21:02:26] 🚀 Démarrage sync Strava
+[2026-03-17 21:02:26] 🕐 Recherche des activités depuis : 17/03/2026 18:56
+[2026-03-17 21:02:26] ✅ Aucune nouvelle activité.
+[2026-03-17 21:02:26] ✅ Sync terminée.
+[2026-03-17 21:08:54] ══════════════════════════════════════════════════
+[2026-03-17 21:08:54] 🔄 SYNC COMPLÈTE depuis 2018
+[2026-03-17 21:08:54] 🕐 Récupération depuis le 01/01/2018...
+[2026-03-17 21:09:03] 🆕 810 nouvelle(s) activité(s) trouvée(s) !
+[2026-03-17 21:09:05] 📈 Graphiques mis à jour.
+[2026-03-17 21:09:06] 🌐 Dashboard HTML mis à jour.
+[2026-03-17 21:09:18] 📧 Email envoyé à gravel.sebastien@gmail.com
+[2026-03-17 21:09:18] ✅ Sync terminée.
+[2026-03-17 21:13:48] ══════════════════════════════════════════════════
+[2026-03-17 21:13:48] 🔄 SYNC COMPLÈTE depuis 2018
+[2026-03-17 21:13:48] 🕐 Récupération depuis le 01/01/2018...
+[2026-03-17 21:13:58] 🆕 810 nouvelle(s) activité(s) trouvée(s) !
+[2026-03-17 21:14:00] 📈 Graphiques mis à jour.
+[2026-03-17 21:14:01] 🌐 Dashboard HTML mis à jour.
+[2026-03-17 21:14:03] 📧 Email envoyé à gravel.sebastien@gmail.com
+[2026-03-17 21:14:03] ✅ Sync terminée.
+[2026-03-17 22:53:57] ══════════════════════════════════════════════════
+[2026-03-17 22:53:57] 🚀 Démarrage sync Strava
+[2026-03-17 22:53:57] 🕐 Recherche des activités depuis : 17/03/2026 19:14
+[2026-03-17 22:53:57] ✅ Aucune nouvelle activité.
+[2026-03-17 22:53:57] ✅ Sync terminée.
+[2026-03-17 22:53:57] ══════════════════════════════════════════════════
+[2026-03-17 22:53:57] 🚀 Démarrage sync Strava
+[2026-03-17 22:53:57] 🕐 Recherche des activités depuis : 17/03/2026 19:14
+[2026-03-17 22:53:57] ✅ Aucune nouvelle activité.
+[2026-03-17 22:53:57] ✅ Sync terminée.
+[2026-03-18 08:52:08] ══════════════════════════════════════════════════
+[2026-03-18 08:52:08] 🚀 Démarrage sync Strava
+[2026-03-18 08:52:08] 🔄 Rafraîchissement du token...
+[2026-03-18 08:52:08] 🕐 Recherche des activités depuis : 17/03/2026 20:53
+[2026-03-18 08:52:08] ✅ Aucune nouvelle activité.
+[2026-03-18 08:52:08] ✅ Sync terminée.
+[2026-03-18 08:52:08] ══════════════════════════════════════════════════
+[2026-03-18 08:52:08] 🚀 Démarrage sync Strava
+[2026-03-18 08:52:08] 🔄 Rafraîchissement du token...
+[2026-03-18 08:52:08] 🕐 Recherche des activités depuis : 17/03/2026 20:53
+[2026-03-18 08:52:08] ✅ Aucune nouvelle activité.
+[2026-03-18 08:52:08] ✅ Sync terminée.
+[2026-03-18 10:33:30] ══════════════════════════════════════════════════
+[2026-03-18 10:33:30] 🚀 Démarrage sync Strava
+[2026-03-18 10:33:30] 🕐 Recherche des activités depuis : 18/03/2026 06:52
+[2026-03-18 10:33:30] ✅ Aucune nouvelle activité.
+[2026-03-18 10:33:30] ✅ Sync terminée.
+[2026-03-18 10:33:30] ══════════════════════════════════════════════════
+[2026-03-18 10:33:30] 🚀 Démarrage sync Strava
+[2026-03-18 10:33:30] 🕐 Recherche des activités depuis : 18/03/2026 06:52
+[2026-03-18 10:33:30] ✅ Aucune nouvelle activité.
+[2026-03-18 10:33:30] ✅ Sync terminée.
+[2026-03-18 12:07:30] ══════════════════════════════════════════════════
+[2026-03-18 12:07:30] 🚀 Démarrage sync Strava
+[2026-03-18 12:07:30] 🕐 Recherche des activités depuis : 18/03/2026 08:33
+[2026-03-18 12:07:30] ✅ Aucune nouvelle activité.
+[2026-03-18 12:07:30] ✅ Sync terminée.
+[2026-03-18 12:07:30] ══════════════════════════════════════════════════
+[2026-03-18 12:07:30] 🚀 Démarrage sync Strava
+[2026-03-18 12:07:30] 🕐 Recherche des activités depuis : 18/03/2026 08:33
+[2026-03-18 12:07:30] ✅ Aucune nouvelle activité.
+[2026-03-18 12:07:30] ✅ Sync terminée.
+[2026-03-18 13:23:08] ══════════════════════════════════════════════════
+[2026-03-18 13:23:08] 🚀 Démarrage sync Strava
+[2026-03-18 13:23:08] 🕐 Recherche des activités depuis : 18/03/2026 10:07
+[2026-03-18 13:23:08] ✅ Aucune nouvelle activité.
+[2026-03-18 13:23:08] ✅ Sync terminée.
+[2026-03-18 13:23:08] ══════════════════════════════════════════════════
+[2026-03-18 13:23:08] 🚀 Démarrage sync Strava
+[2026-03-18 13:23:08] 🕐 Recherche des activités depuis : 18/03/2026 10:07
+[2026-03-18 13:23:08] ✅ Aucune nouvelle activité.
+[2026-03-18 13:23:08] ✅ Sync terminée.
+[2026-03-18 15:01:07] ══════════════════════════════════════════════════
+[2026-03-18 15:01:07] 🚀 Démarrage sync Strava
+[2026-03-18 15:01:07] 🔄 Rafraîchissement du token...
+[2026-03-18 15:01:08] 🕐 Recherche des activités depuis : 18/03/2026 11:23
+[2026-03-18 15:01:08] ✅ Aucune nouvelle activité.
+[2026-03-18 15:01:08] ✅ Sync terminée.
+[2026-03-18 15:01:07] ══════════════════════════════════════════════════
+[2026-03-18 15:01:07] 🚀 Démarrage sync Strava
+[2026-03-18 15:01:07] 🔄 Rafraîchissement du token...
+[2026-03-18 15:01:08] 🕐 Recherche des activités depuis : 18/03/2026 11:23
+[2026-03-18 15:01:08] ✅ Aucune nouvelle activité.
+[2026-03-18 15:01:08] ✅ Sync terminée.
+[2026-03-18 16:31:26] ══════════════════════════════════════════════════
+[2026-03-18 16:31:26] 🚀 Démarrage sync Strava
+[2026-03-18 16:31:26] 🕐 Recherche des activités depuis : 18/03/2026 13:01
+[2026-03-18 16:31:26] ✅ Aucune nouvelle activité.
+[2026-03-18 16:31:26] ✅ Sync terminée.
+[2026-03-18 16:31:26] ══════════════════════════════════════════════════
+[2026-03-18 16:31:26] 🚀 Démarrage sync Strava
+[2026-03-18 16:31:26] 🕐 Recherche des activités depuis : 18/03/2026 13:01
+[2026-03-18 16:31:26] ✅ Aucune nouvelle activité.
+[2026-03-18 16:31:26] ✅ Sync terminée.
+[2026-03-18 17:31:26] ══════════════════════════════════════════════════
+[2026-03-18 17:31:26] 🚀 Démarrage sync Strava
+[2026-03-18 17:31:26] 🕐 Recherche des activités depuis : 18/03/2026 14:31
+[2026-03-18 17:31:26] ✅ Aucune nouvelle activité.
+[2026-03-18 17:31:26] ✅ Sync terminée.
+[2026-03-18 17:31:26] ══════════════════════════════════════════════════
+[2026-03-18 17:31:26] 🚀 Démarrage sync Strava
+[2026-03-18 17:31:26] 🕐 Recherche des activités depuis : 18/03/2026 14:31
+[2026-03-18 17:31:26] ✅ Aucune nouvelle activité.
+[2026-03-18 17:31:26] ✅ Sync terminée.
+[2026-03-18 18:31:27] ══════════════════════════════════════════════════
+[2026-03-18 18:31:27] 🚀 Démarrage sync Strava
+[2026-03-18 18:31:27] 🕐 Recherche des activités depuis : 18/03/2026 15:31
+[2026-03-18 18:31:27] ✅ Aucune nouvelle activité.
+[2026-03-18 18:31:27] ✅ Sync terminée.
+[2026-03-18 18:31:27] ══════════════════════════════════════════════════
+[2026-03-18 18:31:27] 🚀 Démarrage sync Strava
+[2026-03-18 18:31:27] 🕐 Recherche des activités depuis : 18/03/2026 15:31
+[2026-03-18 18:31:27] ✅ Aucune nouvelle activité.
+[2026-03-18 18:31:27] ✅ Sync terminée.
+[2026-03-18 19:31:28] ══════════════════════════════════════════════════
+[2026-03-18 19:31:28] 🚀 Démarrage sync Strava
+[2026-03-18 19:31:28] 🕐 Recherche des activités depuis : 18/03/2026 16:31
+[2026-03-18 19:31:28] ✅ Aucune nouvelle activité.
+[2026-03-18 19:31:28] ✅ Sync terminée.
+[2026-03-18 19:31:28] ══════════════════════════════════════════════════
+[2026-03-18 19:31:28] 🚀 Démarrage sync Strava
+[2026-03-18 19:31:28] 🕐 Recherche des activités depuis : 18/03/2026 16:31
+[2026-03-18 19:31:28] ✅ Aucune nouvelle activité.
+[2026-03-18 19:31:28] ✅ Sync terminée.
+[2026-03-18 20:31:29] ══════════════════════════════════════════════════
+[2026-03-18 20:31:29] 🚀 Démarrage sync Strava
+[2026-03-18 20:31:29] 🕐 Recherche des activités depuis : 18/03/2026 17:31
+[2026-03-18 20:31:30] ✅ Aucune nouvelle activité.
+[2026-03-18 20:31:30] 🌙 Envoi du résumé journalier...
+[2026-03-18 20:31:33] 📧 Résumé journalier envoyé.
+[2026-03-18 20:31:33] ✅ Sync terminée.
+[2026-03-18 20:31:29] ══════════════════════════════════════════════════
+[2026-03-18 20:31:29] 🚀 Démarrage sync Strava
+[2026-03-18 20:31:29] 🕐 Recherche des activités depuis : 18/03/2026 17:31
+[2026-03-18 20:31:30] ✅ Aucune nouvelle activité.
+[2026-03-18 20:31:30] 🌙 Envoi du résumé journalier...
+[2026-03-18 20:31:33] 📧 Résumé journalier envoyé.
+[2026-03-18 20:31:33] ✅ Sync terminée.
+[2026-03-18 22:02:24] ══════════════════════════════════════════════════
+[2026-03-18 22:02:24] 🚀 Démarrage sync Strava
+[2026-03-18 22:02:24] 🔄 Rafraîchissement du token...
+[2026-03-18 22:02:25] 🕐 Recherche des activités depuis : 18/03/2026 18:31
+[2026-03-18 22:02:25] ✅ Aucune nouvelle activité.
+[2026-03-18 22:02:25] ✅ Sync terminée.
+[2026-03-18 22:02:24] ══════════════════════════════════════════════════
+[2026-03-18 22:02:24] 🚀 Démarrage sync Strava
+[2026-03-18 22:02:24] 🔄 Rafraîchissement du token...
+[2026-03-18 22:02:25] 🕐 Recherche des activités depuis : 18/03/2026 18:31
+[2026-03-18 22:02:25] ✅ Aucune nouvelle activité.
+[2026-03-18 22:02:25] ✅ Sync terminée.
+[2026-03-18 23:25:32] ══════════════════════════════════════════════════
+[2026-03-18 23:25:32] 🚀 Démarrage sync Strava
+[2026-03-18 23:25:32] 🕐 Recherche des activités depuis : 18/03/2026 20:02
+[2026-03-18 23:25:32] ✅ Aucune nouvelle activité.
+[2026-03-18 23:25:32] ✅ Sync terminée.
+[2026-03-18 23:25:32] ══════════════════════════════════════════════════
+[2026-03-18 23:25:32] 🚀 Démarrage sync Strava
+[2026-03-18 23:25:32] 🕐 Recherche des activités depuis : 18/03/2026 20:02
+[2026-03-18 23:25:32] ✅ Aucune nouvelle activité.
+[2026-03-18 23:25:32] ✅ Sync terminée.
+[2026-03-19 00:25:33] ══════════════════════════════════════════════════
+[2026-03-19 00:25:33] 🚀 Démarrage sync Strava
+[2026-03-19 00:25:33] 🕐 Recherche des activités depuis : 18/03/2026 21:25
+[2026-03-19 00:25:33] ✅ Aucune nouvelle activité.
+[2026-03-19 00:25:33] ✅ Sync terminée.
+[2026-03-19 00:25:33] ══════════════════════════════════════════════════
+[2026-03-19 00:25:33] 🚀 Démarrage sync Strava
+[2026-03-19 00:25:33] 🕐 Recherche des activités depuis : 18/03/2026 21:25
+[2026-03-19 00:25:33] ✅ Aucune nouvelle activité.
+[2026-03-19 00:25:33] ✅ Sync terminée.
+[2026-03-19 01:25:33] ══════════════════════════════════════════════════
+[2026-03-19 01:25:33] 🚀 Démarrage sync Strava
+[2026-03-19 01:25:33] 🕐 Recherche des activités depuis : 18/03/2026 22:25
+[2026-03-19 01:25:34] ✅ Aucune nouvelle activité.
+[2026-03-19 01:25:34] ✅ Sync terminée.
+[2026-03-19 01:25:33] ══════════════════════════════════════════════════
+[2026-03-19 01:25:33] 🚀 Démarrage sync Strava
+[2026-03-19 01:25:33] 🕐 Recherche des activités depuis : 18/03/2026 22:25
+[2026-03-19 01:25:34] ✅ Aucune nouvelle activité.
+[2026-03-19 01:25:34] ✅ Sync terminée.
+[2026-03-19 02:25:34] ══════════════════════════════════════════════════
+[2026-03-19 02:25:34] 🚀 Démarrage sync Strava
+[2026-03-19 02:25:34] 🕐 Recherche des activités depuis : 18/03/2026 23:25
+[2026-03-19 02:25:35] ✅ Aucune nouvelle activité.
+[2026-03-19 02:25:35] ✅ Sync terminée.
+[2026-03-19 02:25:34] ══════════════════════════════════════════════════
+[2026-03-19 02:25:34] 🚀 Démarrage sync Strava
+[2026-03-19 02:25:34] 🕐 Recherche des activités depuis : 18/03/2026 23:25
+[2026-03-19 02:25:35] ✅ Aucune nouvelle activité.
+[2026-03-19 02:25:35] ✅ Sync terminée.
+[2026-03-19 03:25:35] ══════════════════════════════════════════════════
+[2026-03-19 03:25:35] 🚀 Démarrage sync Strava
+[2026-03-19 03:25:35] 🕐 Recherche des activités depuis : 19/03/2026 00:25
+[2026-03-19 03:25:36] ✅ Aucune nouvelle activité.
+[2026-03-19 03:25:36] ✅ Sync terminée.
+[2026-03-19 03:25:35] ══════════════════════════════════════════════════
+[2026-03-19 03:25:35] 🚀 Démarrage sync Strava
+[2026-03-19 03:25:35] 🕐 Recherche des activités depuis : 19/03/2026 00:25
+[2026-03-19 03:25:36] ✅ Aucune nouvelle activité.
+[2026-03-19 03:25:36] ✅ Sync terminée.
+[2026-03-19 04:25:36] ══════════════════════════════════════════════════
+[2026-03-19 04:25:36] 🚀 Démarrage sync Strava
+[2026-03-19 04:25:36] 🔄 Rafraîchissement du token...
+[2026-03-19 04:25:36] 🕐 Recherche des activités depuis : 19/03/2026 01:25
+[2026-03-19 04:25:36] ✅ Aucune nouvelle activité.
+[2026-03-19 04:25:36] ✅ Sync terminée.
+[2026-03-19 04:25:36] ══════════════════════════════════════════════════
+[2026-03-19 04:25:36] 🚀 Démarrage sync Strava
+[2026-03-19 04:25:36] 🔄 Rafraîchissement du token...
+[2026-03-19 04:25:36] 🕐 Recherche des activités depuis : 19/03/2026 01:25
+[2026-03-19 04:25:36] ✅ Aucune nouvelle activité.
+[2026-03-19 04:25:36] ✅ Sync terminée.
+[2026-03-19 05:25:37] ══════════════════════════════════════════════════
+[2026-03-19 05:25:37] 🚀 Démarrage sync Strava
+[2026-03-19 05:25:37] 🕐 Recherche des activités depuis : 19/03/2026 02:25
+[2026-03-19 05:25:37] ✅ Aucune nouvelle activité.
+[2026-03-19 05:25:37] ✅ Sync terminée.
+[2026-03-19 05:25:37] ══════════════════════════════════════════════════
+[2026-03-19 05:25:37] 🚀 Démarrage sync Strava
+[2026-03-19 05:25:37] 🕐 Recherche des activités depuis : 19/03/2026 02:25
+[2026-03-19 05:25:37] ✅ Aucune nouvelle activité.
+[2026-03-19 05:25:37] ✅ Sync terminée.
+[2026-03-19 06:25:38] ══════════════════════════════════════════════════
+[2026-03-19 06:25:38] 🚀 Démarrage sync Strava
+[2026-03-19 06:25:38] 🕐 Recherche des activités depuis : 19/03/2026 03:25
+[2026-03-19 06:25:38] ✅ Aucune nouvelle activité.
+[2026-03-19 06:25:38] ✅ Sync terminée.
+[2026-03-19 06:25:38] ══════════════════════════════════════════════════
+[2026-03-19 06:25:38] 🚀 Démarrage sync Strava
+[2026-03-19 06:25:38] 🕐 Recherche des activités depuis : 19/03/2026 03:25
+[2026-03-19 06:25:38] ✅ Aucune nouvelle activité.
+[2026-03-19 06:25:38] ✅ Sync terminée.
+[2026-03-19 07:25:38] ══════════════════════════════════════════════════
+[2026-03-19 07:25:38] 🚀 Démarrage sync Strava
+[2026-03-19 07:25:38] 🕐 Recherche des activités depuis : 19/03/2026 04:25
+[2026-03-19 07:25:39] ✅ Aucune nouvelle activité.
+[2026-03-19 07:25:39] ✅ Sync terminée.
+[2026-03-19 07:25:38] ══════════════════════════════════════════════════
+[2026-03-19 07:25:38] 🚀 Démarrage sync Strava
+[2026-03-19 07:25:38] 🕐 Recherche des activités depuis : 19/03/2026 04:25
+[2026-03-19 07:25:39] ✅ Aucune nouvelle activité.
+[2026-03-19 07:25:39] ✅ Sync terminée.
+[2026-03-19 08:25:39] ══════════════════════════════════════════════════
+[2026-03-19 08:25:39] 🚀 Démarrage sync Strava
+[2026-03-19 08:25:39] 🕐 Recherche des activités depuis : 19/03/2026 05:25
+[2026-03-19 08:25:39] ✅ Aucune nouvelle activité.
+[2026-03-19 08:25:39] ✅ Sync terminée.
+[2026-03-19 08:25:39] ══════════════════════════════════════════════════
+[2026-03-19 08:25:39] 🚀 Démarrage sync Strava
+[2026-03-19 08:25:39] 🕐 Recherche des activités depuis : 19/03/2026 05:25
+[2026-03-19 08:25:39] ✅ Aucune nouvelle activité.
+[2026-03-19 08:25:39] ✅ Sync terminée.
+[2026-03-19 09:25:40] ══════════════════════════════════════════════════
+[2026-03-19 09:25:41] 🚀 Démarrage sync Strava
+[2026-03-19 09:25:41] 🕐 Recherche des activités depuis : 19/03/2026 06:25
+[2026-03-19 09:25:41] ✅ Aucune nouvelle activité.
+[2026-03-19 09:25:41] ✅ Sync terminée.
+[2026-03-19 09:25:40] ══════════════════════════════════════════════════
+[2026-03-19 09:25:41] 🚀 Démarrage sync Strava
+[2026-03-19 09:25:41] 🕐 Recherche des activités depuis : 19/03/2026 06:25
+[2026-03-19 09:25:41] ✅ Aucune nouvelle activité.
+[2026-03-19 09:25:41] ✅ Sync terminée.
+[2026-03-19 10:25:41] ══════════════════════════════════════════════════
+[2026-03-19 10:25:41] 🚀 Démarrage sync Strava
+[2026-03-19 10:25:41] 🔄 Rafraîchissement du token...
+[2026-03-19 10:25:41] 🕐 Recherche des activités depuis : 19/03/2026 07:25
+[2026-03-19 10:25:42] ✅ Aucune nouvelle activité.
+[2026-03-19 10:25:42] ✅ Sync terminée.
+[2026-03-19 10:25:41] ══════════════════════════════════════════════════
+[2026-03-19 10:25:41] 🚀 Démarrage sync Strava
+[2026-03-19 10:25:41] 🔄 Rafraîchissement du token...
+[2026-03-19 10:25:41] 🕐 Recherche des activités depuis : 19/03/2026 07:25
+[2026-03-19 10:25:42] ✅ Aucune nouvelle activité.
+[2026-03-19 10:25:42] ✅ Sync terminée.
+[2026-03-19 11:25:42] ══════════════════════════════════════════════════
+[2026-03-19 11:25:42] 🚀 Démarrage sync Strava
+[2026-03-19 11:25:42] 🕐 Recherche des activités depuis : 19/03/2026 08:25
+[2026-03-19 11:25:42] ✅ Aucune nouvelle activité.
+[2026-03-19 11:25:42] ✅ Sync terminée.
+[2026-03-19 11:25:42] ══════════════════════════════════════════════════
+[2026-03-19 11:25:42] 🚀 Démarrage sync Strava
+[2026-03-19 11:25:42] 🕐 Recherche des activités depuis : 19/03/2026 08:25
+[2026-03-19 11:25:42] ✅ Aucune nouvelle activité.
+[2026-03-19 11:25:42] ✅ Sync terminée.
+[2026-03-19 12:25:43] ══════════════════════════════════════════════════
+[2026-03-19 12:25:43] 🚀 Démarrage sync Strava
+[2026-03-19 12:25:43] 🕐 Recherche des activités depuis : 19/03/2026 09:25
+[2026-03-19 12:25:44] ✅ Aucune nouvelle activité.
+[2026-03-19 12:25:44] ✅ Sync terminée.
+[2026-03-19 12:25:43] ══════════════════════════════════════════════════
+[2026-03-19 12:25:43] 🚀 Démarrage sync Strava
+[2026-03-19 12:25:43] 🕐 Recherche des activités depuis : 19/03/2026 09:25
+[2026-03-19 12:25:44] ✅ Aucune nouvelle activité.
+[2026-03-19 12:25:44] ✅ Sync terminée.
+[2026-03-19 13:25:44] ══════════════════════════════════════════════════
+[2026-03-19 13:25:44] 🚀 Démarrage sync Strava
+[2026-03-19 13:25:44] 🕐 Recherche des activités depuis : 19/03/2026 10:25
+[2026-03-19 13:25:44] ✅ Aucune nouvelle activité.
+[2026-03-19 13:25:44] ✅ Sync terminée.
+[2026-03-19 13:25:44] ══════════════════════════════════════════════════
+[2026-03-19 13:25:44] 🚀 Démarrage sync Strava
+[2026-03-19 13:25:44] 🕐 Recherche des activités depuis : 19/03/2026 10:25
+[2026-03-19 13:25:44] ✅ Aucune nouvelle activité.
+[2026-03-19 13:25:44] ✅ Sync terminée.
+[2026-03-19 14:25:45] ══════════════════════════════════════════════════
+[2026-03-19 14:25:45] 🚀 Démarrage sync Strava
+[2026-03-19 14:25:45] 🕐 Recherche des activités depuis : 19/03/2026 11:25
+[2026-03-19 14:25:45] ✅ Aucune nouvelle activité.
+[2026-03-19 14:25:45] ✅ Sync terminée.
+[2026-03-19 14:25:45] ══════════════════════════════════════════════════
+[2026-03-19 14:25:45] 🚀 Démarrage sync Strava
+[2026-03-19 14:25:45] 🕐 Recherche des activités depuis : 19/03/2026 11:25
+[2026-03-19 14:25:45] ✅ Aucune nouvelle activité.
+[2026-03-19 14:25:45] ✅ Sync terminée.
+[2026-03-19 15:25:46] ══════════════════════════════════════════════════
+[2026-03-19 15:25:46] 🚀 Démarrage sync Strava
+[2026-03-19 15:25:46] 🕐 Recherche des activités depuis : 19/03/2026 12:25
+[2026-03-19 15:25:46] ✅ Aucune nouvelle activité.
+[2026-03-19 15:25:46] ✅ Sync terminée.
+[2026-03-19 15:25:46] ══════════════════════════════════════════════════
+[2026-03-19 15:25:46] 🚀 Démarrage sync Strava
+[2026-03-19 15:25:46] 🕐 Recherche des activités depuis : 19/03/2026 12:25
+[2026-03-19 15:25:46] ✅ Aucune nouvelle activité.
+[2026-03-19 15:25:46] ✅ Sync terminée.
+[2026-03-19 16:25:47] ══════════════════════════════════════════════════
+[2026-03-19 16:25:47] 🚀 Démarrage sync Strava
+[2026-03-19 16:25:47] 🔄 Rafraîchissement du token...
+[2026-03-19 16:25:47] 🕐 Recherche des activités depuis : 19/03/2026 13:25
+[2026-03-19 16:25:47] ✅ Aucune nouvelle activité.
+[2026-03-19 16:25:47] ✅ Sync terminée.
+[2026-03-19 16:25:47] ══════════════════════════════════════════════════
+[2026-03-19 16:25:47] 🚀 Démarrage sync Strava
+[2026-03-19 16:25:47] 🔄 Rafraîchissement du token...
+[2026-03-19 16:25:47] 🕐 Recherche des activités depuis : 19/03/2026 13:25
+[2026-03-19 16:25:47] ✅ Aucune nouvelle activité.
+[2026-03-19 16:25:47] ✅ Sync terminée.
+[2026-03-19 17:25:47] ══════════════════════════════════════════════════
+[2026-03-19 17:25:47] 🚀 Démarrage sync Strava
+[2026-03-19 17:25:47] 🕐 Recherche des activités depuis : 19/03/2026 14:25
+[2026-03-19 17:25:48] ✅ Aucune nouvelle activité.
+[2026-03-19 17:25:48] ✅ Sync terminée.
+[2026-03-19 17:25:47] ══════════════════════════════════════════════════
+[2026-03-19 17:25:47] 🚀 Démarrage sync Strava
+[2026-03-19 17:25:47] 🕐 Recherche des activités depuis : 19/03/2026 14:25
+[2026-03-19 17:25:48] ✅ Aucune nouvelle activité.
+[2026-03-19 17:25:48] ✅ Sync terminée.
+[2026-03-19 18:25:48] ══════════════════════════════════════════════════
+[2026-03-19 18:25:48] 🚀 Démarrage sync Strava
+[2026-03-19 18:25:48] 🕐 Recherche des activités depuis : 19/03/2026 15:25
+[2026-03-19 18:25:48] ✅ Aucune nouvelle activité.
+[2026-03-19 18:25:48] ✅ Sync terminée.
+[2026-03-19 18:25:48] ══════════════════════════════════════════════════
+[2026-03-19 18:25:48] 🚀 Démarrage sync Strava
+[2026-03-19 18:25:48] 🕐 Recherche des activités depuis : 19/03/2026 15:25
+[2026-03-19 18:25:48] ✅ Aucune nouvelle activité.
+[2026-03-19 18:25:48] ✅ Sync terminée.
+[2026-03-19 19:25:49] ══════════════════════════════════════════════════
+[2026-03-19 19:25:49] 🚀 Démarrage sync Strava
+[2026-03-19 19:25:49] 🕐 Recherche des activités depuis : 19/03/2026 16:25
+[2026-03-19 19:25:49] ✅ Aucune nouvelle activité.
+[2026-03-19 19:25:49] ✅ Sync terminée.
+[2026-03-19 19:25:49] ══════════════════════════════════════════════════
+[2026-03-19 19:25:49] 🚀 Démarrage sync Strava
+[2026-03-19 19:25:49] 🕐 Recherche des activités depuis : 19/03/2026 16:25
+[2026-03-19 19:25:49] ✅ Aucune nouvelle activité.
+[2026-03-19 19:25:49] ✅ Sync terminée.
+[2026-03-19 20:25:50] ══════════════════════════════════════════════════
+[2026-03-19 20:25:50] 🚀 Démarrage sync Strava
+[2026-03-19 20:25:50] 🕐 Recherche des activités depuis : 19/03/2026 17:25
+[2026-03-19 20:25:51] 🆕 1 nouvelle(s) activité(s) trouvée(s) !
+[2026-03-19 20:25:54] 📈 Graphiques mis à jour.
+[2026-03-19 20:25:54] ⚠️  Erreur dashboard : Command '['python3', '/Users/sebastiengravel/OneDrive/Claude/strava_dashboard.py']' returned non-zero exit status 1.
+[2026-03-19 20:26:06] 📧 Email envoyé à gravel.sebastien@gmail.com
+[2026-03-19 20:26:06] ✅ Sync terminée.
+[2026-03-19 20:25:50] ══════════════════════════════════════════════════
+[2026-03-19 20:25:50] 🚀 Démarrage sync Strava
+[2026-03-19 20:25:50] 🕐 Recherche des activités depuis : 19/03/2026 17:25
+[2026-03-19 20:25:51] 🆕 1 nouvelle(s) activité(s) trouvée(s) !
+[2026-03-19 20:25:54] 📈 Graphiques mis à jour.
+[2026-03-19 20:25:54] ⚠️  Erreur dashboard : Command '['python3', '/Users/sebastiengravel/OneDrive/Claude/strava_dashboard.py']' returned non-zero exit status 1.
+[2026-03-19 20:26:06] 📧 Email envoyé à gravel.sebastien@gmail.com
+[2026-03-19 20:26:06] ✅ Sync terminée.
+[2026-03-19 21:26:08] ══════════════════════════════════════════════════
+[2026-03-19 21:26:08] 🚀 Démarrage sync Strava
+[2026-03-19 21:26:08] 🕐 Recherche des activités depuis : 19/03/2026 18:26
+[2026-03-19 21:26:08] ✅ Aucune nouvelle activité.
+[2026-03-19 21:26:08] ✅ Sync terminée.
+[2026-03-19 21:26:08] ══════════════════════════════════════════════════
+[2026-03-19 21:26:08] 🚀 Démarrage sync Strava
+[2026-03-19 21:26:08] 🕐 Recherche des activités depuis : 19/03/2026 18:26
+[2026-03-19 21:26:08] ✅ Aucune nouvelle activité.
+[2026-03-19 21:26:08] ✅ Sync terminée.
+[2026-03-19 22:26:08] ══════════════════════════════════════════════════
+[2026-03-19 22:26:08] 🚀 Démarrage sync Strava
+[2026-03-19 22:26:08] 🔄 Rafraîchissement du token...
+[2026-03-19 22:26:09] 🕐 Recherche des activités depuis : 19/03/2026 19:26
+[2026-03-19 22:26:09] ✅ Aucune nouvelle activité.
+[2026-03-19 22:26:09] ✅ Sync terminée.
+[2026-03-19 22:26:08] ══════════════════════════════════════════════════
+[2026-03-19 22:26:08] 🚀 Démarrage sync Strava
+[2026-03-19 22:26:08] 🔄 Rafraîchissement du token...
+[2026-03-19 22:26:09] 🕐 Recherche des activités depuis : 19/03/2026 19:26
+[2026-03-19 22:26:09] ✅ Aucune nouvelle activité.
+[2026-03-19 22:26:09] ✅ Sync terminée.
+[2026-03-19 23:26:10] ══════════════════════════════════════════════════
+[2026-03-19 23:26:10] 🚀 Démarrage sync Strava
+[2026-03-19 23:26:10] 🕐 Recherche des activités depuis : 19/03/2026 20:26
+[2026-03-19 23:26:10] ✅ Aucune nouvelle activité.
+[2026-03-19 23:26:10] ✅ Sync terminée.
+[2026-03-19 23:26:10] ══════════════════════════════════════════════════
+[2026-03-19 23:26:10] 🚀 Démarrage sync Strava
+[2026-03-19 23:26:10] 🕐 Recherche des activités depuis : 19/03/2026 20:26
+[2026-03-19 23:26:10] ✅ Aucune nouvelle activité.
+[2026-03-19 23:26:10] ✅ Sync terminée.
+[2026-03-20 00:26:10] ══════════════════════════════════════════════════
+[2026-03-20 00:26:10] 🚀 Démarrage sync Strava
+[2026-03-20 00:26:10] 🕐 Recherche des activités depuis : 19/03/2026 21:26
+[2026-03-20 00:26:10] ✅ Aucune nouvelle activité.
+[2026-03-20 00:26:10] ✅ Sync terminée.
+[2026-03-20 00:26:10] ══════════════════════════════════════════════════
+[2026-03-20 00:26:10] 🚀 Démarrage sync Strava
+[2026-03-20 00:26:10] 🕐 Recherche des activités depuis : 19/03/2026 21:26
+[2026-03-20 00:26:10] ✅ Aucune nouvelle activité.
+[2026-03-20 00:26:10] ✅ Sync terminée.
+[2026-03-20 01:26:24] ══════════════════════════════════════════════════
+[2026-03-20 01:26:24] 🚀 Démarrage sync Strava
+[2026-03-20 01:26:24] 🕐 Recherche des activités depuis : 19/03/2026 22:26
+[2026-03-20 01:26:24] ✅ Aucune nouvelle activité.
+[2026-03-20 01:26:24] ✅ Sync terminée.
+[2026-03-20 01:26:24] ══════════════════════════════════════════════════
+[2026-03-20 01:26:24] 🚀 Démarrage sync Strava
+[2026-03-20 01:26:24] 🕐 Recherche des activités depuis : 19/03/2026 22:26
+[2026-03-20 01:26:24] ✅ Aucune nouvelle activité.
+[2026-03-20 01:26:24] ✅ Sync terminée.
+[2026-03-20 14:48:40] ══════════════════════════════════════════════════
+[2026-03-20 14:48:40] 🚀 Démarrage sync Strava
+[2026-03-20 14:48:40] 🔄 Rafraîchissement du token...
+[2026-03-20 14:48:40] 🕐 Recherche des activités depuis : 19/03/2026 23:26
+[2026-03-20 14:48:40] ✅ Aucune nouvelle activité.
+[2026-03-20 14:48:40] ✅ Sync terminée.
+[2026-03-20 14:48:40] ══════════════════════════════════════════════════
+[2026-03-20 14:48:40] 🚀 Démarrage sync Strava
+[2026-03-20 14:48:40] 🔄 Rafraîchissement du token...
+[2026-03-20 14:48:40] 🕐 Recherche des activités depuis : 19/03/2026 23:26
+[2026-03-20 14:48:40] ✅ Aucune nouvelle activité.
+[2026-03-20 14:48:40] ✅ Sync terminée.
+[2026-03-21 09:54:44] ══════════════════════════════════════════════════
+[2026-03-21 09:54:44] 🚀 Démarrage sync Strava
+[2026-03-21 09:54:44] 🔄 Rafraîchissement du token...
+[2026-03-21 09:54:44] 🕐 Recherche des activités depuis : 20/03/2026 12:48
+[2026-03-21 09:54:44] ✅ Aucune nouvelle activité.
+[2026-03-21 09:54:44] ✅ Sync terminée.
+[2026-03-21 09:54:44] ══════════════════════════════════════════════════
+[2026-03-21 09:54:44] 🚀 Démarrage sync Strava
+[2026-03-21 09:54:44] 🔄 Rafraîchissement du token...
+[2026-03-21 09:54:44] 🕐 Recherche des activités depuis : 20/03/2026 12:48
+[2026-03-21 09:54:44] ✅ Aucune nouvelle activité.
+[2026-03-21 09:54:44] ✅ Sync terminée.
+[2026-03-21 16:56:16] ══════════════════════════════════════════════════
+[2026-03-21 16:56:16] 🚀 Démarrage sync Strava
+[2026-03-21 16:56:16] 🔄 Rafraîchissement du token...
+[2026-03-21 16:56:16] 🕐 Recherche des activités depuis : 21/03/2026 07:54
+[2026-03-21 16:56:16] ✅ Aucune nouvelle activité.
+[2026-03-21 16:56:16] ✅ Sync terminée.
+[2026-03-21 16:56:16] ══════════════════════════════════════════════════
+[2026-03-21 16:56:16] 🚀 Démarrage sync Strava
+[2026-03-21 16:56:16] 🔄 Rafraîchissement du token...
+[2026-03-21 16:56:16] 🕐 Recherche des activités depuis : 21/03/2026 07:54
+[2026-03-21 16:56:16] ✅ Aucune nouvelle activité.
+[2026-03-21 16:56:16] ✅ Sync terminée.
+[2026-03-22 08:44:42] ══════════════════════════════════════════════════
+[2026-03-22 08:44:42] 🚀 Démarrage sync Strava
+[2026-03-22 08:44:42] 🔄 Rafraîchissement du token...
+[2026-03-22 08:44:42] 🕐 Recherche des activités depuis : 21/03/2026 14:56
+[2026-03-22 08:44:42] ✅ Aucune nouvelle activité.
+[2026-03-22 08:44:42] ✅ Sync terminée.
+[2026-03-22 08:44:42] ══════════════════════════════════════════════════
+[2026-03-22 08:44:42] 🚀 Démarrage sync Strava
+[2026-03-22 08:44:42] 🔄 Rafraîchissement du token...
+[2026-03-22 08:44:42] 🕐 Recherche des activités depuis : 21/03/2026 14:56
+[2026-03-22 08:44:42] ✅ Aucune nouvelle activité.
+[2026-03-22 08:44:42] ✅ Sync terminée.
+[2026-03-22 10:39:30] ══════════════════════════════════════════════════
+[2026-03-22 10:39:30] 🚀 Démarrage sync Strava
+[2026-03-22 10:39:30] 🕐 Recherche des activités depuis : 22/03/2026 06:44
+[2026-03-22 10:39:30] ✅ Aucune nouvelle activité.
+[2026-03-22 10:39:30] ✅ Sync terminée.
+[2026-03-22 10:39:30] ══════════════════════════════════════════════════
+[2026-03-22 10:39:30] 🚀 Démarrage sync Strava
+[2026-03-22 10:39:30] 🕐 Recherche des activités depuis : 22/03/2026 06:44
+[2026-03-22 10:39:30] ✅ Aucune nouvelle activité.
+[2026-03-22 10:39:30] ✅ Sync terminée.
+[2026-03-22 20:01:05] ══════════════════════════════════════════════════
+[2026-03-22 20:01:05] 🚀 Démarrage sync Strava
+[2026-03-22 20:01:05] 🔄 Rafraîchissement du token...
+[2026-03-22 20:01:05] 🕐 Recherche des activités depuis : 22/03/2026 08:39
+[2026-03-22 20:01:06] 🆕 1 nouvelle(s) activité(s) trouvée(s) !
+[2026-03-22 20:01:15] 📈 Graphiques mis à jour.
+[2026-03-22 20:01:15] ⚠️  Erreur dashboard : Command '['python3', '/Users/sebastiengravel/OneDrive/Claude/strava_dashboard.py']' returned non-zero exit status 1.
+[2026-03-22 20:01:17] 📧 Email envoyé à gravel.sebastien@gmail.com
+[2026-03-22 20:01:17] ✅ Sync terminée.
+[2026-03-22 20:01:05] ══════════════════════════════════════════════════
+[2026-03-22 20:01:05] 🚀 Démarrage sync Strava
+[2026-03-22 20:01:05] 🔄 Rafraîchissement du token...
+[2026-03-22 20:01:05] 🕐 Recherche des activités depuis : 22/03/2026 08:39
+[2026-03-22 20:01:06] 🆕 1 nouvelle(s) activité(s) trouvée(s) !
+[2026-03-22 20:01:15] 📈 Graphiques mis à jour.
+[2026-03-22 20:01:15] ⚠️  Erreur dashboard : Command '['python3', '/Users/sebastiengravel/OneDrive/Claude/strava_dashboard.py']' returned non-zero exit status 1.
+[2026-03-22 20:01:17] 📧 Email envoyé à gravel.sebastien@gmail.com
+[2026-03-22 20:01:17] ✅ Sync terminée.
+[2026-03-22 21:01:18] ══════════════════════════════════════════════════
+[2026-03-22 21:01:18] 🚀 Démarrage sync Strava
+[2026-03-22 21:01:18] 🕐 Recherche des activités depuis : 22/03/2026 18:01
+[2026-03-22 21:01:18] ✅ Aucune nouvelle activité.
+[2026-03-22 21:01:18] ✅ Sync terminée.
+[2026-03-22 21:01:18] ══════════════════════════════════════════════════
+[2026-03-22 21:01:18] 🚀 Démarrage sync Strava
+[2026-03-22 21:01:18] 🕐 Recherche des activités depuis : 22/03/2026 18:01
+[2026-03-22 21:01:18] ✅ Aucune nouvelle activité.
+[2026-03-22 21:01:18] ✅ Sync terminée.
+[2026-03-22 22:17:55] ══════════════════════════════════════════════════
+[2026-03-22 22:17:55] 🚀 Démarrage sync Strava
+[2026-03-22 22:17:55] 🕐 Recherche des activités depuis : 22/03/2026 19:01
+[2026-03-22 22:17:56] ✅ Aucune nouvelle activité.
+[2026-03-22 22:17:56] ✅ Sync terminée.
+[2026-03-22 22:17:55] ══════════════════════════════════════════════════
+[2026-03-22 22:17:55] 🚀 Démarrage sync Strava
+[2026-03-22 22:17:55] 🕐 Recherche des activités depuis : 22/03/2026 19:01
+[2026-03-22 22:17:56] ✅ Aucune nouvelle activité.
+[2026-03-22 22:17:56] ✅ Sync terminée.
+[2026-03-22 23:17:56] ══════════════════════════════════════════════════
+[2026-03-22 23:17:56] 🚀 Démarrage sync Strava
+[2026-03-22 23:17:56] 🕐 Recherche des activités depuis : 22/03/2026 20:17
+[2026-03-22 23:17:56] ✅ Aucune nouvelle activité.
+[2026-03-22 23:17:56] ✅ Sync terminée.
+[2026-03-22 23:17:56] ══════════════════════════════════════════════════
+[2026-03-22 23:17:56] 🚀 Démarrage sync Strava
+[2026-03-22 23:17:56] 🕐 Recherche des activités depuis : 22/03/2026 20:17
+[2026-03-22 23:17:56] ✅ Aucune nouvelle activité.
+[2026-03-22 23:17:56] ✅ Sync terminée.
+[2026-03-23 00:17:57] ══════════════════════════════════════════════════
+[2026-03-23 00:17:57] 🚀 Démarrage sync Strava
+[2026-03-23 00:17:57] 🕐 Recherche des activités depuis : 22/03/2026 21:17
+[2026-03-23 00:17:57] ✅ Aucune nouvelle activité.
+[2026-03-23 00:17:57] ✅ Sync terminée.
+[2026-03-23 00:17:57] ══════════════════════════════════════════════════
+[2026-03-23 00:17:57] 🚀 Démarrage sync Strava
+[2026-03-23 00:17:57] 🕐 Recherche des activités depuis : 22/03/2026 21:17
+[2026-03-23 00:17:57] ✅ Aucune nouvelle activité.
+[2026-03-23 00:17:57] ✅ Sync terminée.
+[2026-03-23 01:17:57] ══════════════════════════════════════════════════
+[2026-03-23 01:17:57] 🚀 Démarrage sync Strava
+[2026-03-23 01:17:57] 🕐 Recherche des activités depuis : 22/03/2026 22:17
+[2026-03-23 01:17:58] ✅ Aucune nouvelle activité.
+[2026-03-23 01:17:58] ✅ Sync terminée.
+[2026-03-23 01:17:57] ══════════════════════════════════════════════════
+[2026-03-23 01:17:57] 🚀 Démarrage sync Strava
+[2026-03-23 01:17:57] 🕐 Recherche des activités depuis : 22/03/2026 22:17
+[2026-03-23 01:17:58] ✅ Aucune nouvelle activité.
+[2026-03-23 01:17:58] ✅ Sync terminée.
+[2026-03-23 02:17:58] ══════════════════════════════════════════════════
+[2026-03-23 02:17:58] 🚀 Démarrage sync Strava
+[2026-03-23 02:17:58] 🔄 Rafraîchissement du token...
+[2026-03-23 02:17:58] 🕐 Recherche des activités depuis : 22/03/2026 23:17
+[2026-03-23 02:17:58] ✅ Aucune nouvelle activité.
+[2026-03-23 02:17:58] ✅ Sync terminée.
+[2026-03-23 02:17:58] ══════════════════════════════════════════════════
+[2026-03-23 02:17:58] 🚀 Démarrage sync Strava
+[2026-03-23 02:17:58] 🔄 Rafraîchissement du token...
+[2026-03-23 02:17:58] 🕐 Recherche des activités depuis : 22/03/2026 23:17
+[2026-03-23 02:17:58] ✅ Aucune nouvelle activité.
+[2026-03-23 02:17:58] ✅ Sync terminée.
+[2026-03-23 03:17:59] ══════════════════════════════════════════════════
+[2026-03-23 03:17:59] 🚀 Démarrage sync Strava
+[2026-03-23 03:17:59] 🕐 Recherche des activités depuis : 23/03/2026 00:17
+[2026-03-23 03:17:59] ✅ Aucune nouvelle activité.
+[2026-03-23 03:17:59] ✅ Sync terminée.
+[2026-03-23 03:17:59] ══════════════════════════════════════════════════
+[2026-03-23 03:17:59] 🚀 Démarrage sync Strava
+[2026-03-23 03:17:59] 🕐 Recherche des activités depuis : 23/03/2026 00:17
+[2026-03-23 03:17:59] ✅ Aucune nouvelle activité.
+[2026-03-23 03:17:59] ✅ Sync terminée.
+[2026-03-23 04:18:00] ══════════════════════════════════════════════════
+[2026-03-23 04:18:00] 🚀 Démarrage sync Strava
+[2026-03-23 04:18:00] 🕐 Recherche des activités depuis : 23/03/2026 01:17
+[2026-03-23 04:18:00] ✅ Aucune nouvelle activité.
+[2026-03-23 04:18:00] ✅ Sync terminée.
+[2026-03-23 04:18:00] ══════════════════════════════════════════════════
+[2026-03-23 04:18:00] 🚀 Démarrage sync Strava
+[2026-03-23 04:18:00] 🕐 Recherche des activités depuis : 23/03/2026 01:17
+[2026-03-23 04:18:00] ✅ Aucune nouvelle activité.
+[2026-03-23 04:18:00] ✅ Sync terminée.
+[2026-03-23 05:18:01] ══════════════════════════════════════════════════
+[2026-03-23 05:18:01] 🚀 Démarrage sync Strava
+[2026-03-23 05:18:01] 🕐 Recherche des activités depuis : 23/03/2026 02:18
+[2026-03-23 05:18:01] ✅ Aucune nouvelle activité.
+[2026-03-23 05:18:01] ✅ Sync terminée.
+[2026-03-23 05:18:01] ══════════════════════════════════════════════════
+[2026-03-23 05:18:01] 🚀 Démarrage sync Strava
+[2026-03-23 05:18:01] 🕐 Recherche des activités depuis : 23/03/2026 02:18
+[2026-03-23 05:18:01] ✅ Aucune nouvelle activité.
+[2026-03-23 05:18:01] ✅ Sync terminée.
+[2026-03-23 06:18:02] ══════════════════════════════════════════════════
+[2026-03-23 06:18:02] 🚀 Démarrage sync Strava
+[2026-03-23 06:18:02] 🕐 Recherche des activités depuis : 23/03/2026 03:18
+[2026-03-23 06:18:02] ✅ Aucune nouvelle activité.
+[2026-03-23 06:18:02] ✅ Sync terminée.
+[2026-03-23 06:18:02] ══════════════════════════════════════════════════
+[2026-03-23 06:18:02] 🚀 Démarrage sync Strava
+[2026-03-23 06:18:02] 🕐 Recherche des activités depuis : 23/03/2026 03:18
+[2026-03-23 06:18:02] ✅ Aucune nouvelle activité.
+[2026-03-23 06:18:02] ✅ Sync terminée.
+[2026-03-23 09:44:39] ══════════════════════════════════════════════════
+[2026-03-23 09:44:39] 🚀 Démarrage sync Strava
+[2026-03-23 09:44:39] 🔄 Rafraîchissement du token...
+[2026-03-23 09:44:39] 🕐 Recherche des activités depuis : 23/03/2026 04:18
+[2026-03-23 09:44:39] ✅ Aucune nouvelle activité.
+[2026-03-23 09:44:39] ✅ Sync terminée.
+[2026-03-23 09:44:39] ══════════════════════════════════════════════════
+[2026-03-23 09:44:39] 🚀 Démarrage sync Strava
+[2026-03-23 09:44:39] 🔄 Rafraîchissement du token...
+[2026-03-23 09:44:39] 🕐 Recherche des activités depuis : 23/03/2026 04:18
+[2026-03-23 09:44:39] ✅ Aucune nouvelle activité.
+[2026-03-23 09:44:39] ✅ Sync terminée.
+[2026-03-23 18:08:24] ══════════════════════════════════════════════════
+[2026-03-23 18:08:24] 🚀 Démarrage sync Strava
+[2026-03-23 18:08:24] 🔄 Rafraîchissement du token...
+[2026-03-23 18:08:24] 🕐 Recherche des activités depuis : 23/03/2026 07:44
+[2026-03-23 18:08:24] ✅ Aucune nouvelle activité.
+[2026-03-23 18:08:24] ✅ Sync terminée.
+[2026-03-23 18:08:24] ══════════════════════════════════════════════════
+[2026-03-23 18:08:24] 🚀 Démarrage sync Strava
+[2026-03-23 18:08:24] 🔄 Rafraîchissement du token...
+[2026-03-23 18:08:24] 🕐 Recherche des activités depuis : 23/03/2026 07:44
+[2026-03-23 18:08:24] ✅ Aucune nouvelle activité.
+[2026-03-23 18:08:24] ✅ Sync terminée.
+[2026-03-24 08:01:24] ══════════════════════════════════════════════════
+[2026-03-24 08:01:24] 🚀 Démarrage sync Strava
+[2026-03-24 08:01:24] 🔄 Rafraîchissement du token...
+[2026-03-24 08:01:24] 🕐 Recherche des activités depuis : 23/03/2026 16:08
+[2026-03-24 08:01:25] ✅ Aucune nouvelle activité.
+[2026-03-24 08:01:25] ✅ Sync terminée.
+[2026-03-24 08:01:24] ══════════════════════════════════════════════════
+[2026-03-24 08:01:24] 🚀 Démarrage sync Strava
+[2026-03-24 08:01:24] 🔄 Rafraîchissement du token...
+[2026-03-24 08:01:24] 🕐 Recherche des activités depuis : 23/03/2026 16:08
+[2026-03-24 08:01:25] ✅ Aucune nouvelle activité.
+[2026-03-24 08:01:25] ✅ Sync terminée.
+[2026-03-24 10:32:22] ══════════════════════════════════════════════════
+[2026-03-24 10:32:22] 🔄 Rafraîchissement du token...
+[2026-03-24 10:32:23] 🚀 Démarrage sync Strava
+[2026-03-24 10:32:23] 🕐 Recherche des activités depuis : 24/03/2026 06:01
+[2026-03-24 10:32:23] ✅ Aucune nouvelle activité.
+[2026-03-24 10:32:23] ✅ Sync terminée.
+[2026-03-24 10:32:22] ══════════════════════════════════════════════════
+[2026-03-24 10:32:22] 🔄 Rafraîchissement du token...
+[2026-03-24 10:32:23] 🚀 Démarrage sync Strava
+[2026-03-24 10:32:23] 🕐 Recherche des activités depuis : 24/03/2026 06:01
+[2026-03-24 10:32:23] ✅ Aucune nouvelle activité.
+[2026-03-24 10:32:23] ✅ Sync terminée.
+[2026-03-24 11:54:00] ══════════════════════════════════════════════════
+[2026-03-24 11:54:00] 🚀 Démarrage sync Strava
+[2026-03-24 11:54:00] 🕐 Recherche des activités depuis : 24/03/2026 08:32
+[2026-03-24 11:54:00] ✅ Aucune nouvelle activité.
+[2026-03-24 11:54:00] ✅ Sync terminée.
+[2026-03-24 11:54:00] ══════════════════════════════════════════════════
+[2026-03-24 11:54:00] 🚀 Démarrage sync Strava
+[2026-03-24 11:54:00] 🕐 Recherche des activités depuis : 24/03/2026 08:32
+[2026-03-24 11:54:00] ✅ Aucune nouvelle activité.
+[2026-03-24 11:54:00] ✅ Sync terminée.
+[2026-03-24 13:09:41] ══════════════════════════════════════════════════
+[2026-03-24 13:09:41] 🚀 Démarrage sync Strava
+[2026-03-24 13:09:41] 🕐 Recherche des activités depuis : 24/03/2026 09:54
+[2026-03-24 13:09:41] ✅ Aucune nouvelle activité.
+[2026-03-24 13:09:41] ✅ Sync terminée.
+[2026-03-24 13:09:41] ══════════════════════════════════════════════════
+[2026-03-24 13:09:41] 🚀 Démarrage sync Strava
+[2026-03-24 13:09:41] 🕐 Recherche des activités depuis : 24/03/2026 09:54
+[2026-03-24 13:09:41] ✅ Aucune nouvelle activité.
+[2026-03-24 13:09:41] ✅ Sync terminée.
+[2026-03-24 14:09:42] ══════════════════════════════════════════════════
+[2026-03-24 14:09:42] 🚀 Démarrage sync Strava
+[2026-03-24 14:09:42] 🕐 Recherche des activités depuis : 24/03/2026 11:09
+[2026-03-24 14:09:42] ✅ Aucune nouvelle activité.
+[2026-03-24 14:09:42] ✅ Sync terminée.
+[2026-03-24 14:09:42] ══════════════════════════════════════════════════
+[2026-03-24 14:09:42] 🚀 Démarrage sync Strava
+[2026-03-24 14:09:42] 🕐 Recherche des activités depuis : 24/03/2026 11:09
+[2026-03-24 14:09:42] ✅ Aucune nouvelle activité.
+[2026-03-24 14:09:42] ✅ Sync terminée.
+[2026-03-24 15:29:27] ══════════════════════════════════════════════════
+[2026-03-24 15:29:27] 🚀 Démarrage sync Strava
+[2026-03-24 15:29:27] 🕐 Recherche des activités depuis : 24/03/2026 12:09
+[2026-03-24 15:29:27] ✅ Aucune nouvelle activité.
+[2026-03-24 15:29:27] ✅ Sync terminée.
+[2026-03-24 15:29:27] ══════════════════════════════════════════════════
+[2026-03-24 15:29:27] 🚀 Démarrage sync Strava
+[2026-03-24 15:29:27] 🕐 Recherche des activités depuis : 24/03/2026 12:09
+[2026-03-24 15:29:27] ✅ Aucune nouvelle activité.
+[2026-03-24 15:29:27] ✅ Sync terminée.

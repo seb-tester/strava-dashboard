@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aperçu Email — Briefing du jour</title>
+  <style>
+    body {
+      background-color: #f0f2f5;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      margin: 0;
+      padding: 30px 20px;
+    }
+    .email-wrapper {
+      max-width: 600px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+    }
+
+    /* Header */
+    .header {
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+      padding: 28px 32px;
+      color: white;
+    }
+    .header-top { display: flex; justify-content: space-between; align-items: center; }
+    .header h1 { margin: 0; font-size: 22px; font-weight: 700; letter-spacing: -0.3px; }
+    .header .date { font-size: 13px; color: rgba(255,255,255,0.6); margin-top: 4px; }
+    .header .event-chip {
+      background: rgba(255,255,255,0.1);
+      border-radius: 20px;
+      padding: 6px 14px;
+      font-size: 13px;
+      color: rgba(255,255,255,0.85);
+    }
+
+    /* Section */
+    .section { padding: 24px 32px; border-bottom: 1px solid #f0f0f0; }
+    .section:last-child { border-bottom: none; }
+    .section-title {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+      color: #999;
+      margin-bottom: 14px;
+    }
+
+    /* Événements */
+    .event { display: flex; align-items: flex-start; gap: 14px; margin-bottom: 12px; }
+    .event:last-child { margin-bottom: 0; }
+    .event-time { font-size: 12px; font-weight: 600; color: #888; min-width: 52px; padding-top: 2px; }
+    .event-body { flex: 1; }
+    .event-title { font-size: 15px; font-weight: 600; color: #1a1a1a; display: flex; align-items: center; gap: 8px; }
+    .event-location { font-size: 12px; color: #888; margin-top: 2px; }
+    .badge-new { background: #e8f5e9; color: #2e7d32; font-size: 10px; font-weight: 700; padding: 2px 7px; border-radius: 10px; }
+    .badge-collecte { background: #e3f2fd; color: #1565c0; font-size: 10px; font-weight: 700; padding: 2px 7px; border-radius: 10px; }
+    .dot { width: 8px; height: 8px; border-radius: 50%; margin-top: 6px; flex-shrink: 0; }
+    .dot-blue { background: #4986e7; }
+    .dot-yellow { background: #f5a623; }
+    .dot-green { background: #16a765; }
+
+    /* Météo */
+    .meteo-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+    .meteo-main {
+      background: linear-gradient(135deg, #4a90d9 0%, #357abd 100%);
+      border-radius: 10px;
+      padding: 16px;
+      color: white;
+      grid-column: 1 / -1;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .meteo-temp { font-size: 42px; font-weight: 800; line-height: 1; }
+    .meteo-temp span { font-size: 18px; font-weight: 400; }
+    .meteo-desc { font-size: 14px; color: rgba(255,255,255,0.85); margin-top: 4px; }
+    .meteo-details { font-size: 12px; color: rgba(255,255,255,0.7); margin-top: 2px; }
+    .meteo-icon { font-size: 52px; }
+    .meteo-activity {
+      border-radius: 10px;
+      padding: 14px 16px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .meteo-activity.good { background: #e8f5e9; border: 1px solid #c8e6c9; }
+    .meteo-activity.bad { background: #fff3e0; border: 1px solid #ffe0b2; }
+    .meteo-activity.warn { background: #fffde7; border: 1px solid #fff176; }
+    .activity-icon { font-size: 26px; }
+    .activity-label { font-size: 12px; font-weight: 700; color: #333; }
+    .activity-reason { font-size: 11px; color: #888; margin-top: 2px; }
+    .activity-status { font-size: 18px; margin-left: auto; }
+
+    /* Strava */
+    .strava-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .strava-card {
+      background: #fafafa;
+      border: 1px solid #eee;
+      border-radius: 10px;
+      padding: 14px 16px;
+    }
+    .strava-sport { font-size: 12px; font-weight: 700; color: #555; margin-bottom: 6px; }
+    .strava-nums { display: flex; align-items: baseline; gap: 4px; margin-bottom: 8px; }
+    .strava-current { font-size: 24px; font-weight: 800; color: #1a1a1a; }
+    .strava-goal { font-size: 13px; color: #aaa; }
+    .strava-bar-bg { background: #e0e0e0; border-radius: 6px; height: 8px; overflow: hidden; }
+    .strava-bar-fill { height: 8px; border-radius: 6px; }
+    .strava-bar-velo { background: linear-gradient(90deg, #ff6b00, #ff9500); }
+    .strava-bar-run { background: linear-gradient(90deg, #1976d2, #42a5f5); }
+    .strava-remaining { font-size: 11px; color: #999; margin-top: 5px; }
+
+    /* Emails non lus */
+    .email-item { padding: 12px 0; border-bottom: 1px solid #f0f0f0; }
+    .email-item:last-child { border-bottom: none; padding-bottom: 0; }
+    .email-sender { font-size: 12px; font-weight: 700; color: #555; margin-bottom: 2px; }
+    .email-subject { font-size: 14px; font-weight: 600; color: #1a1a1a; margin-bottom: 4px; }
+    .email-excerpt { font-size: 12px; color: #888; line-height: 1.5; }
+
+    /* Canadiens */
+    .sport-card {
+      border-radius: 10px;
+      padding: 18px 20px;
+      color: white;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 12px;
+    }
+    .sport-card.canadiens { background: linear-gradient(135deg, #c8102e 0%, #a00d25 100%); }
+    .sport-card.alouettes { background: linear-gradient(135deg, #1a2b5e 0%, #c8102e 100%); }
+    .sport-logo { font-size: 36px; line-height: 1; }
+    .sport-info { flex: 1; }
+    .sport-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: rgba(255,255,255,0.7); margin-bottom: 3px; }
+    .sport-matchup { font-size: 18px; font-weight: 800; margin-bottom: 3px; }
+    .sport-details { font-size: 12px; color: rgba(255,255,255,0.75); }
+    .sport-time { text-align: right; }
+    .sport-time .time { font-size: 22px; font-weight: 800; }
+    .sport-time .ampm { font-size: 12px; color: rgba(255,255,255,0.7); }
+
+    /* Classements */
+    .standing-card { background: #fafafa; border: 1px solid #eee; border-radius: 10px; padding: 16px 18px; }
+    .standing-title { font-size: 11px; font-weight: 700; color: #555; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 0.8px; }
+    .standing-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    .standing-table thead tr { border-bottom: 1px solid #e0e0e0; }
+    .standing-table th { text-align: center; font-size: 10px; font-weight: 700; color: #999; text-transform: uppercase; padding: 4px 6px 8px; }
+    .standing-table th:nth-child(2) { text-align: left; }
+    .standing-table td { padding: 7px 6px; color: #333; text-align: center; }
+    .standing-table td:nth-child(2) { text-align: left; font-weight: 500; }
+    .highlight-row td { background: #fff5f5 !important; color: #c8102e !important; font-weight: 700 !important; }
+    .highlight-row-blue td { background: #e8eaf6 !important; color: #1a237e !important; font-weight: 700 !important; }
+    .bubble-line { text-align: center !important; font-size: 10px !important; color: #bbb !important; font-style: italic; padding: 4px !important; border-top: 1px dashed #ddd; border-bottom: 1px dashed #ddd; }
+    .playoff-badge { display: inline-flex; align-items: center; background: #e8f5e9; color: #2e7d32; font-size: 11px; font-weight: 700; padding: 4px 10px; border-radius: 20px; margin-top: 10px; }
+
+    /* NFL / LCF condensé */
+    .nfl-team-row { display: flex; justify-content: space-between; align-items: center; padding: 10px 0; border-bottom: 1px solid #f0f0f0; }
+    .nfl-team-row:last-child { border-bottom: none; padding-bottom: 0; }
+    .nfl-team-name { font-size: 14px; font-weight: 700; color: #1a1a1a; margin-bottom: 3px; }
+    .nfl-team-record { font-size: 12px; color: #888; }
+    .nfl-game-info { text-align: right; min-width: 90px; }
+    .nfl-matchup { font-size: 13px; font-weight: 600; color: #333; }
+    .nfl-time { font-size: 11px; color: #aaa; margin-top: 2px; }
+    .nfl-playoff-badge { display: inline-block; background: #e8f5e9; color: #2e7d32; font-size: 10px; font-weight: 700; padding: 1px 6px; border-radius: 8px; margin-left: 4px; }
+
+    /* Footer */
+    .footer { background: #f8f8f8; padding: 16px 32px; text-align: center; font-size: 11px; color: #bbb; }
+  </style>
+</head>
+<body>
+<div class="email-wrapper">
+
+  <!-- Header -->
+  <div class="header">
+    <div class="header-top">
+      <div>
+        <h1>☀️ Briefing du mercredi</h1>
+        <div class="date">25 mars 2026 · Bonjour Sébastien !</div>
+      </div>
+      <div class="event-chip">3 événements aujourd'hui</div>
+    </div>
+  </div>
+
+  <!-- Météo -->
+  <div class="section">
+    <div class="section-title">🌤️ Météo — Montréal</div>
+
+    <div class="meteo-grid">
+      <div class="meteo-main">
+        <div>
+          <div class="meteo-temp">8<span>°C</span></div>
+          <div class="meteo-desc">Partiellement nuageux</div>
+          <div class="meteo-details">💧 0% pluie · 💨 18 km/h · Ressenti 4°C</div>
+        </div>
+        <div class="meteo-icon">⛅</div>
+      </div>
+
+      <div class="meteo-activity good">
+        <div class="activity-icon">🚴</div>
+        <div>
+          <div class="activity-label">Vélo extérieur</div>
+          <div class="activity-reason">8°C · vent 18km/h · sec</div>
+        </div>
+        <div class="activity-status">✅</div>
+      </div>
+
+      <div class="meteo-activity good">
+        <div class="activity-icon">🏃</div>
+        <div>
+          <div class="activity-label">Jogging</div>
+          <div class="activity-reason">8°C · aucune précip.</div>
+        </div>
+        <div class="activity-status">✅</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Strava — Objectifs semaine -->
+  <div class="section">
+    <div class="section-title">🚴 Strava — Objectifs de la semaine</div>
+    <div class="strava-grid">
+
+      <div class="strava-card">
+        <div class="strava-sport">🚴 Vélo</div>
+        <div class="strava-nums">
+          <span class="strava-current">67</span>
+          <span class="strava-goal">/ 100 km</span>
+        </div>
+        <div class="strava-bar-bg">
+          <div class="strava-bar-fill strava-bar-velo" style="width:67%"></div>
+        </div>
+        <div class="strava-remaining">33 km restants · 3 sorties cette semaine</div>
+      </div>
+
+      <div class="strava-card">
+        <div class="strava-sport">🏃 Jogging</div>
+        <div class="strava-nums">
+          <span class="strava-current">6.5</span>
+          <span class="strava-goal">/ 10 km</span>
+        </div>
+        <div class="strava-bar-bg">
+          <div class="strava-bar-fill strava-bar-run" style="width:65%"></div>
+        </div>
+        <div class="strava-remaining">3.5 km restants · 1 sortie cette semaine</div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Événements du jour -->
+  <div class="section">
+    <div class="section-title">📅 Aujourd'hui</div>
+
+    <div class="event">
+      <div class="dot dot-blue"></div>
+      <div class="event-time">09:00</div>
+      <div class="event-body">
+        <div class="event-title">Réunion équipe <span class="badge-new">🆕 NOUVEAU</span></div>
+        <div class="event-location">Google Meet</div>
+      </div>
+    </div>
+
+    <div class="event">
+      <div class="dot dot-yellow"></div>
+      <div class="event-time">12:30</div>
+      <div class="event-body">
+        <div class="event-title">Dîner avec Marc</div>
+        <div class="event-location">Café Parvis, Montréal</div>
+      </div>
+    </div>
+
+    <div class="event">
+      <div class="dot dot-green"></div>
+      <div class="event-time">Journée</div>
+      <div class="event-body">
+        <div class="event-title">Sainte-Catherine — Collecte du bac bleu <span class="badge-collecte">♻️ COLLECTE</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Emails non lus -->
+  <div class="section">
+    <div class="section-title">📬 Emails non lus — <span style="color:#c8102e">4 non lus</span></div>
+
+    <div class="email-item">
+      <div class="email-sender">Amazon.ca</div>
+      <div class="email-subject">Votre commande #123-4567890 a été expédiée</div>
+      <div class="email-excerpt">Bonjour Sebastien, votre colis est en route et sera livré le vendredi 27 mars. Numéro de suivi : 1Z999AA10123456784...</div>
+    </div>
+
+    <div class="email-item">
+      <div class="email-sender">Marc Tremblay &lt;marc.tremblay@gmail.com&gt;</div>
+      <div class="email-subject">Re: Dîner de jeudi — on change de place?</div>
+      <div class="email-excerpt">Salut! Finalement le Parvis est full, t'aurais pas une autre idée? Je pensais peut-être au Liverpool House si t'as envie...</div>
+    </div>
+
+    <div class="email-item">
+      <div class="email-sender">Desjardins &lt;noreply@desjardins.com&gt;</div>
+      <div class="email-subject">Votre relevé de compte est disponible</div>
+      <div class="email-excerpt">Votre relevé du mois de février 2026 est maintenant disponible dans votre espace AccèsD. Connectez-vous pour le consulter...</div>
+    </div>
+
+    <div class="email-item">
+      <div class="email-sender">École Ste-Catherine &lt;info@ecole-ste-catherine.qc.ca&gt;</div>
+      <div class="email-subject">🆕 Réunion parents — 1er avril à 19h</div>
+      <div class="email-excerpt">Chers parents, nous vous invitons à une réunion d'information concernant les activités parascolaires du printemps...</div>
+    </div>
+  </div>
+
+  <!-- Canadiens NHL -->
+  <div class="section">
+    <div class="section-title">🏒 LNH — Ce soir</div>
+
+    <div class="sport-card canadiens">
+      <div class="sport-logo">🔴</div>
+      <div class="sport-info">
+        <div class="sport-label">Match à domicile · Centre Bell</div>
+        <div class="sport-matchup">Canadiens vs Maple Leafs</div>
+        <div class="sport-details">LNH · Saison régulière</div>
+      </div>
+      <div class="sport-time">
+        <div class="time">19h00</div>
+        <div class="ampm">EST</div>
+      </div>
+    </div>
+
+    <div class="standing-card">
+      <div class="standing-title">Division Atlantique</div>
+      <table class="standing-table">
+        <thead><tr><th>#</th><th>Équipe</th><th>PJ</th><th>V</th><th>D</th><th>DP</th><th>Pts</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td>Boston Bruins</td><td>68</td><td>44</td><td>18</td><td>6</td><td>94</td></tr>
+          <tr><td>2</td><td>Toronto Maple Leafs</td><td>68</td><td>40</td><td>20</td><td>8</td><td>88</td></tr>
+          <tr class="highlight-row"><td>3</td><td>⭐ Canadiens de Mtl</td><td>68</td><td>38</td><td>22</td><td>8</td><td>84</td></tr>
+          <tr><td>4</td><td>Tampa Bay Lightning</td><td>68</td><td>37</td><td>24</td><td>7</td><td>81</td></tr>
+          <tr><td>5</td><td>Florida Panthers</td><td>68</td><td>36</td><td>23</td><td>9</td><td>81</td></tr>
+          <tr class="bubble-row"><td colspan="7" class="bubble-line">— Ligne playoff —</td></tr>
+          <tr><td>6</td><td>Ottawa Senators</td><td>68</td><td>34</td><td>27</td><td>7</td><td>75</td></tr>
+          <tr><td>7</td><td>Buffalo Sabres</td><td>68</td><td>30</td><td>30</td><td>8</td><td>68</td></tr>
+          <tr><td>8</td><td>Detroit Red Wings</td><td>68</td><td>28</td><td>32</td><td>8</td><td>64</td></tr>
+        </tbody>
+      </table>
+      <div class="playoff-badge">✅ Canadiens en position playoff (3e · +9 pts sur Ottawa)</div>
+    </div>
+  </div>
+
+  <!-- Alouettes LCF -->
+  <div class="section">
+    <div class="section-title">🏈 LCF — Ce soir</div>
+
+    <div class="sport-card alouettes">
+      <div class="sport-logo">🏈</div>
+      <div class="sport-info">
+        <div class="sport-label">Match à domicile · Percival Molson</div>
+        <div class="sport-matchup">Alouettes vs Tiger-Cats</div>
+        <div class="sport-details">LCF · Saison régulière</div>
+      </div>
+      <div class="sport-time">
+        <div class="time">19h30</div>
+        <div class="ampm">EST</div>
+      </div>
+    </div>
+
+    <div class="standing-card">
+      <div class="standing-title">Division Est</div>
+      <table class="standing-table">
+        <thead><tr><th>#</th><th>Équipe</th><th>PJ</th><th>V</th><th>D</th><th>N</th><th>Pts</th></tr></thead>
+        <tbody>
+          <tr class="highlight-row-blue"><td>1</td><td>⭐ Alouettes de Mtl</td><td>18</td><td>12</td><td>6</td><td>0</td><td>24</td></tr>
+          <tr><td>2</td><td>Hamilton Tiger-Cats</td><td>18</td><td>10</td><td>8</td><td>0</td><td>20</td></tr>
+          <tr><td>3</td><td>Toronto Argonauts</td><td>18</td><td>8</td><td>10</td><td>0</td><td>16</td></tr>
+          <tr><td>4</td><td>Ottawa Redblacks</td><td>18</td><td>5</td><td>13</td><td>0</td><td>10</td></tr>
+        </tbody>
+      </table>
+      <div class="playoff-badge">✅ Alouettes — 1ers de la Division Est</div>
+    </div>
+  </div>
+
+  <!-- NFL -->
+  <div class="section">
+    <div class="section-title">🏈 NFL — Mes équipes</div>
+
+    <div class="nfl-team-row">
+      <div>
+        <div class="nfl-team-name">🟢 Jets de New York</div>
+        <div class="nfl-team-record">6V · 11D · 0N — 13e AFC</div>
+      </div>
+      <div class="nfl-game-info">
+        <div class="nfl-matchup">@ Patriots</div>
+        <div class="nfl-time">Dim. 13h00</div>
+      </div>
+    </div>
+
+    <div class="nfl-team-row">
+      <div>
+        <div class="nfl-team-name">🟡 Packers de Green Bay</div>
+        <div class="nfl-team-record">11V · 6D · 0N — 3e NFC <span class="nfl-playoff-badge">✅ Playoffs</span></div>
+      </div>
+      <div class="nfl-game-info">
+        <div class="nfl-matchup">vs Bears</div>
+        <div class="nfl-time">Dim. 16h25</div>
+      </div>
+    </div>
+
+    <div class="nfl-team-row">
+      <div>
+        <div class="nfl-team-name">🔵 Bills de Buffalo</div>
+        <div class="nfl-team-record">13V · 4D · 0N — 1er AFC <span class="nfl-playoff-badge">✅ Playoffs</span></div>
+      </div>
+      <div class="nfl-game-info">
+        <div class="nfl-matchup">Repos</div>
+        <div class="nfl-time">—</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    Généré automatiquement · Sébastien Gravel · <a href="#" style="color:#bbb">Modifier les préférences</a>
+  </div>
+
+</div>
+</body>
+</html>

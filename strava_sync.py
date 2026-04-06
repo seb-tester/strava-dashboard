@@ -14,6 +14,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.image import MIMEImage
 from datetime import datetime, timezone
+from notifier import notify
 
 # ════════════════════════════════════════════════════════
 #  CONFIG
@@ -432,6 +433,16 @@ if __name__ == "__main__":
                 send_email([act])
                 email_sent = True
                 log(f"✅ Activité ajoutée: {act['name']}")
+                sport  = SPORT_LABELS.get(act.get("type", ""), act.get("type", "Activité"))
+                dist   = f"{round(act.get('distance', 0) / 1000, 1)} km" if act.get("distance", 0) > 0 else ""
+                duree  = f"{round(act.get('moving_time', 0) / 60)} min"
+                detail = f"{dist} · {duree}".strip(" ·")
+                notify(
+                    f"🏃 Nouvelle activité : {act.get('name', sport)}",
+                    f"{sport} — {detail}",
+                    priority="default",
+                    tags=["muscle"]
+                )
             else:
                 log(f"⚠️  Activité {activity_id} déjà dans le CSV.")
         save_last_sync_timestamp(email_sent_today=email_sent)
@@ -467,6 +478,17 @@ if __name__ == "__main__":
         regenerate_dashboard()
         send_email(new_ones)
         email_sent = True
+        for act in new_ones:
+            sport  = SPORT_LABELS.get(act.get("type", ""), act.get("type", "Activité"))
+            dist   = f"{round(act.get('distance', 0) / 1000, 1)} km" if act.get("distance", 0) > 0 else ""
+            duree  = f"{round(act.get('moving_time', 0) / 60)} min"
+            detail = f"{dist} · {duree}".strip(" ·")
+            notify(
+                f"🏃 Nouvelle activité : {act.get('name', sport)}",
+                f"{sport} — {detail}",
+                priority="default",
+                tags=["muscle"]
+            )
 
     if not email_sent and should_send_daily_summary():
         log("🌙 Envoi du résumé journalier...")

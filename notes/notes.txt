@@ -1,0 +1,9 @@
+Bonne nouvelle : tu n'as rien à faire de spécial. Puisque ces fichiers sont dans ton dossier OneDrive/Claude qui est connecté à Cowork, dans n'importe quelle nouvelle conversation tu peux simplement dire :
+
+"Consulte mon raspberry-pi-config.md pour le contexte du Pi"
+
+ou encore au début d'une tâche :
+
+"Je travaille sur le projet strava-dashboard, le contexte est dans raspberry-pi-config.md et RUNBOOK.md"
+
+Claude aura accès aux fichiers et pourra les lire directement. C'est exactement pour ça qu'on les a mis là — ce sont tes fichiers de contexte persistants d'une session à l'autre.

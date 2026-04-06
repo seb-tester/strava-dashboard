@@ -1,0 +1,9 @@
+/Users/sebastiengravel/OneDrive/Claude/strava_sync.py:141: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  df["mois"] = df["date"].dt.to_period("M")
+/Users/sebastiengravel/OneDrive/Claude/strava_sync.py:141: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  df["mois"] = df["date"].dt.to_period("M")
+/Users/sebastiengravel/OneDrive/Claude/strava_sync.py:141: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  df["mois"] = df["date"].dt.to_period("M")
+/Users/sebastiengravel/OneDrive/Claude/strava_sync.py:141: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  df["mois"] = df["date"].dt.to_period("M")
+/opt/anaconda3/bin/python3: can't open file '/Users/sebastiengravel/OneDrive/Claude/strava_sync.py': [Errno 2] No such file or directory

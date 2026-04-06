@@ -1,0 +1,17 @@
+# notify-failure@.service — Service systemd template pour les alertes de panne
+#
+# Déploiement sur le Pi :
+#   sudo cp notify-failure@.service /etc/systemd/system/
+#   sudo systemctl daemon-reload
+#
+# Puis ajouter dans chaque service à surveiller (ex. strava-webhook.service) :
+#   [Service]
+#   OnFailure=notify-failure@%n.service
+
+[Unit]
+Description=Notification ntfy : %i planté
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/home/pi/strava/notify_failure.sh %i
